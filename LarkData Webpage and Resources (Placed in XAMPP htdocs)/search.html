@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Aluoette I - Search</title>
+
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,400" rel="stylesheet">
+        <link type='text/css' rel='stylesheet' href='font-awesome-4.7.0/css/font-awesome.min.css'>
+    </head>
+    <body>
+        <header style='position: relative; height: 50px;'>
+            <div class='image' style='background-image: url(src/csa_logo.png); padding: 20px; position: absolute; left: 20px;'></div>
+            <div style='color: white; z-index: 1;'>
+                <h3 style='letter-spacing: 1px;'>Alouette-I Ionogram Search Tool</h3>
+            </div>
+        </header>
+        <section style='padding: 20px 30px;'>
+            <div class='search-bar'>
+                <div class='tool'>
+                    <h5>Satelite</h5>
+                    <div style='padding: 14px 50px; border: 1px solid #E0D8DE;'></div>
+                </div>
+                <div class='tool' style='display: flex; align-'>
+                    <div>
+                        <h5>Start Time</h5>
+                        <div style='display: flex;'>
+                            <div style='padding: 14px 50px; border: 1px solid #E0D8DE; margin-right: 3px;'></div>
+                            <div style='padding: 14px 35px; border: 1px solid #E0D8DE;'></div>
+                        </div>
+                    </div>
+                    <hr width='6px;' style='background-color: black; border: 1px solid black; margin: 14px 3px;'>
+                    <div>
+                        <h5>End Time</h5>
+                        <div style='display: flex;'>
+                            <div style='padding: 14px 50px; border: 1px solid #E0D8DE; margin-right: 3px;'></div>
+                            <div style='padding: 14px 35px; border: 1px solid #E0D8DE;'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='tool single'>
+                    <h5>Station</h5>
+                    <div style='padding: 14px 50px; border: 1px solid #E0D8DE;'></div>
+                </div>
+                <div class='small-search'>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+        </section>
+        <section style='padding: 10px 60px;'>
+            <div style='width: 100%; font-size: 9px; margin-bottom: 3px;'>
+                <p id='info'>Search result from
+                    <?php
+                        echo 'test';
+                    ?>
+                </p>
+            </div>
+            <div class='table'>
+                <ul class='column-head'>
+                    <li style='margin-right: 32px;'>Image Name</li>
+                    <li style='margin-right: 22px;'>Satellite</li>
+                    <li style='margin-right: 76px;'>Time</li>
+                    <li>Station</li>
+                    <li>View</li>
+                    <li>Download</li>
+                </ul>
+                <hr size='3px' style='background-color: lightgrey; border: none; margin-top: 4px; margin-bottom: 10px;'>
+                <ul class='column'>
+                    <li>500-Image0100</li>
+                    <li>Alouette-I</li>
+                    <li>1960/000, 00:00</li>
+                    <li>Johannesburg, South Africa</li>
+                    <li><a href='#'>View</a></li>
+                    <li><a href='#'>Download</a></li>
+                </ul>
+            </div>
+        </section>
+    </body>
+</html>
