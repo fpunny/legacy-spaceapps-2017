@@ -1,0 +1,151 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header, section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(src/header.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 40px 60px;
+}
+
+.image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tool hr {
+    align-self: flex-end;
+}
+
+.single {
+    max-width: 595px;
+}
+
+.search {
+    color: white;
+    background-color: #154187;
+    transition: background-color 0.2s linear 0s;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar .tool {
+    margin: 0 4px;
+}
+
+.small-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    align-self: flex-end;
+    background-color: #154187;
+    width: 0;
+    height: 0;
+    padding: 14.5px;
+}
+
+.item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    height: 550px;
+    width: 230px;
+}
+
+a {
+    text-decoration: none;
+    color: #1F5FC6;
+}
+
+a:hover {
+    color: #154187;
+}
+
+.table {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+[class*="column"] {
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+[class*="column"] li {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    font-size: 13px;
+    margin: 5px 10px;
+}
+
+[class*="column"] li:nth-child(4) {
+    flex-grow: 1;
+}
+
+[class*="row"] {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    margin: 20px 0px;
+    list-style-type: none;
+}
+
+.row-head {
+    list-style-type: none;
+    font-weight: bold;
+    width: 75px;
+}
+
+.column-head {
+    font-weight: bold;
+    max-width: 100%;
+}
+
+[class*="arrow"] {
+    padding: 4px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.arrow-left {
+    transform: rotate(-45deg);
+}
+
+.arrow-right {
+    transform: rotate(135deg);
+}
+
+.column {
+  transition: background-color 0.2s linear 0s;
+}
+
+.column:hover {
+    background-color: #EDEDED;
+}

@@ -1,0 +1,12 @@
+IF PHP.INI File has the following commented out (as shown below):
+;extension=php_pdo_pgsql.dll
+;extension=php_pgsql.dll
+
+or not included, include them as:
+
+extension=php_pdo_pgsql.dll
+extension=php_pgsql.dll
+
+And also if not present, add the DLLs to the PHP folder of server. PHP.ini and DLLs used in Presentation included.
+
+

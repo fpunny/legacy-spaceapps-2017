@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Alouette I - Search</title>
+
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,400" rel="stylesheet">
+    </head>
+    <body>
+        <header style='position: relative; height: 100px;'>
+            <div class='image' style='background-image: url(src/csa_logo.png); padding: 32px; position: absolute; left: 20px;'></div>
+            <div style='color: white; z-index: 1;'>
+                <h2 style='letter-spacing: 1px;'>LarkData - Alouette I Search Tool</h2>
+            </div>
+        </header>
+        <section>
+            <h2>Search Alouette-I images</h2>
+            <h4 style='position: relative; top: -4px;'>Ionograms from 1962 - 1972</h4>
+            <br>
+            <form action='/result.php' method='get'>
+                <div>
+                    <div class='tool single' style='display: none;'>
+                        <h4>Satellite</h4>
+                        <select name='Satellite' style='padding: 8px 14px; border: 1px solid #E0D8DE; width: 100%;'>
+                            <option value='99' selected>Satellite</option>
+                            <option value='99'>All Satellites</option>
+                            <option value='01'>01 - Aluette-I</option>
+                        </select>
+                    </div>
+                    <div class='tool' style='display: flex; flex-direction: column;'>
+                        <div>
+                            <h4>Start Time</h4>
+                            <div style='display: flex;'>
+                                <input type='date' name='Start' max='1972-12-31' min='1962-01-01' value='1962-01-01' style='padding: 8px 14px; border: 1px solid #E0D8DE;'>
+                                <select name='Start-h' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                    <option value='00' selected>Hour</option>
+                                    <option value='00'>All</option>
+                                    <option value='00'>00</option>
+                                    <option value='01'>01</option>
+                                    <option value='02'>02</option>
+                                    <option value='03'>03</option>
+                                    <option value='04'>04</option>
+                                    <option value='05'>05</option>
+                                    <option value='06'>06</option>
+                                    <option value='07'>07</option>
+                                    <option value='08'>08</option>
+                                    <option value='09'>09</option>
+                                    <option value='10'>10</option>
+                                    <option value='11'>11</option>
+                                    <option value='12'>12</option>
+                                    <option value='13'>13</option>
+                                    <option value='14'>14</option>
+                                    <option value='15'>15</option>
+                                    <option value='16'>16</option>
+                                    <option value='17'>17</option>
+                                    <option value='18'>18</option>
+                                    <option value='19'>19</option>
+                                    <option value='20'>20</option>
+                                    <option value='21'>21</option>
+                                    <option value='22'>22</option>
+                                    <option value='23'>23</option>
+                                    <option value='24'>24</option>
+                                </select>
+                                <select name='Start-m' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                    <option value='00' selected>Min</option>
+                                    <option value='00'>All</option>
+                                    <option value='00'>00</option>
+                                    <option value='01'>01</option>
+                                    <option value='02'>02</option>
+                                    <option value='03'>03</option>
+                                    <option value='04'>04</option>
+                                    <option value='05'>05</option>
+                                    <option value='06'>06</option>
+                                    <option value='07'>07</option>
+                                    <option value='08'>08</option>
+                                    <option value='09'>09</option>
+                                    <option value='10'>10</option>
+                                    <option value='11'>11</option>
+                                    <option value='12'>12</option>
+                                    <option value='13'>13</option>
+                                    <option value='14'>14</option>
+                                    <option value='15'>15</option>
+                                    <option value='16'>16</option>
+                                    <option value='17'>17</option>
+                                    <option value='18'>18</option>
+                                    <option value='19'>19</option>
+                                    <option value='20'>20</option>
+                                    <option value='21'>21</option>
+                                    <option value='22'>22</option>
+                                    <option value='23'>23</option>
+                                    <option value='24'>24</option>
+                                    <option value='25'>25</option>
+                                    <option value='26'>26</option>
+                                    <option value='27'>27</option>
+                                    <option value='28'>28</option>
+                                    <option value='29'>29</option>
+                                    <option value='30'>30</option>
+                                    <option value='31'>31</option>
+                                    <option value='32'>32</option>
+                                    <option value='33'>33</option>
+                                    <option value='34'>34</option>
+                                    <option value='35'>35</option>
+                                    <option value='36'>36</option>
+                                    <option value='37'>37</option>
+                                    <option value='38'>38</option>
+                                    <option value='39'>39</option>
+                                    <option value='40'>40</option>
+                                    <option value='41'>41</option>
+                                    <option value='42'>42</option>
+                                    <option value='43'>43</option>
+                                    <option value='44'>44</option>
+                                    <option value='45'>45</option>
+                                    <option value='46'>46</option>
+                                    <option value='47'>47</option>
+                                    <option value='48'>48</option>
+                                    <option value='49'>49</option>
+                                    <option value='50'>50</option>
+                                    <option value='51'>51</option>
+                                    <option value='52'>52</option>
+                                    <option value='53'>53</option>
+                                    <option value='54'>54</option>
+                                    <option value='55'>55</option>
+                                    <option value='56'>56</option>
+                                    <option value='57'>57</option>
+                                    <option value='58'>58</option>
+                                    <option value='59'>59</option>
+                                </select>
+                                <select name='Start-s' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                    <option value='00' selected>Sec</option>
+                                    <option value='00'>All</option>
+                                    <option value='00'>00</option>
+                                    <option value='01'>01</option>
+                                    <option value='02'>02</option>
+                                    <option value='03'>03</option>
+                                    <option value='04'>04</option>
+                                    <option value='05'>05</option>
+                                    <option value='06'>06</option>
+                                    <option value='07'>07</option>
+                                    <option value='08'>08</option>
+                                    <option value='09'>09</option>
+                                    <option value='10'>10</option>
+                                    <option value='11'>11</option>
+                                    <option value='12'>12</option>
+                                    <option value='13'>13</option>
+                                    <option value='14'>14</option>
+                                    <option value='15'>15</option>
+                                    <option value='16'>16</option>
+                                    <option value='17'>17</option>
+                                    <option value='18'>18</option>
+                                    <option value='19'>19</option>
+                                    <option value='20'>20</option>
+                                    <option value='21'>21</option>
+                                    <option value='22'>22</option>
+                                    <option value='23'>23</option>
+                                    <option value='24'>24</option>
+                                    <option value='25'>25</option>
+                                    <option value='26'>26</option>
+                                    <option value='27'>27</option>
+                                    <option value='28'>28</option>
+                                    <option value='29'>29</option>
+                                    <option value='30'>30</option>
+                                    <option value='31'>31</option>
+                                    <option value='32'>32</option>
+                                    <option value='33'>33</option>
+                                    <option value='34'>34</option>
+                                    <option value='35'>35</option>
+                                    <option value='36'>36</option>
+                                    <option value='37'>37</option>
+                                    <option value='38'>38</option>
+                                    <option value='39'>39</option>
+                                    <option value='40'>40</option>
+                                    <option value='41'>41</option>
+                                    <option value='42'>42</option>
+                                    <option value='43'>43</option>
+                                    <option value='44'>44</option>
+                                    <option value='45'>45</option>
+                                    <option value='46'>46</option>
+                                    <option value='47'>47</option>
+                                    <option value='48'>48</option>
+                                    <option value='49'>49</option>
+                                    <option value='50'>50</option>
+                                    <option value='51'>51</option>
+                                    <option value='52'>52</option>
+                                    <option value='53'>53</option>
+                                    <option value='54'>54</option>
+                                    <option value='55'>55</option>
+                                    <option value='56'>56</option>
+                                    <option value='57'>57</option>
+                                    <option value='58'>58</option>
+                                    <option value='59'>59</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4>End Time</h4>
+                            <div style='display: flex;'>
+                                <div style='display: flex;'>
+                                <input type='date' name='End' max='1972-12-31' min='1962-01-01' value='1972-12-31' style='padding: 8px 14px; border: 1px solid #E0D8DE;'>
+                            </div>
+                            <select name='End-h' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                <option value='00' selected>Hour</option>
+                                <option value='00'>All</option>
+                                <option value='00'>00</option>
+                                <option value='01'>01</option>
+                                <option value='02'>02</option>
+                                <option value='03'>03</option>
+                                <option value='04'>04</option>
+                                <option value='05'>05</option>
+                                <option value='06'>06</option>
+                                <option value='07'>07</option>
+                                <option value='08'>08</option>
+                                <option value='09'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                                <option value='13'>13</option>
+                                <option value='14'>14</option>
+                                <option value='15'>15</option>
+                                <option value='16'>16</option>
+                                <option value='17'>17</option>
+                                <option value='18'>18</option>
+                                <option value='19'>19</option>
+                                <option value='20'>20</option>
+                                <option value='21'>21</option>
+                                <option value='22'>22</option>
+                                <option value='23'>23</option>
+                                <option value='24'>24</option>
+                            </select>
+                            <select name='End-m' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                <option value='00' selected>Min</option>
+                                <option value='00'>All</option>
+                                <option value='00'>00</option>
+                                <option value='01'>01</option>
+                                <option value='02'>02</option>
+                                <option value='03'>03</option>
+                                <option value='04'>04</option>
+                                <option value='05'>05</option>
+                                <option value='06'>06</option>
+                                <option value='07'>07</option>
+                                <option value='08'>08</option>
+                                <option value='09'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                                <option value='13'>13</option>
+                                <option value='14'>14</option>
+                                <option value='15'>15</option>
+                                <option value='16'>16</option>
+                                <option value='17'>17</option>
+                                <option value='18'>18</option>
+                                <option value='19'>19</option>
+                                <option value='20'>20</option>
+                                <option value='21'>21</option>
+                                <option value='22'>22</option>
+                                <option value='23'>23</option>
+                                <option value='24'>24</option>
+                                <option value='25'>25</option>
+                                <option value='26'>26</option>
+                                <option value='27'>27</option>
+                                <option value='28'>28</option>
+                                <option value='29'>29</option>
+                                <option value='30'>30</option>
+                                <option value='31'>31</option>
+                                <option value='32'>32</option>
+                                <option value='33'>33</option>
+                                <option value='34'>34</option>
+                                <option value='35'>35</option>
+                                <option value='36'>36</option>
+                                <option value='37'>37</option>
+                                <option value='38'>38</option>
+                                <option value='39'>39</option>
+                                <option value='40'>40</option>
+                                <option value='41'>41</option>
+                                <option value='42'>42</option>
+                                <option value='43'>43</option>
+                                <option value='44'>44</option>
+                                <option value='45'>45</option>
+                                <option value='46'>46</option>
+                                <option value='47'>47</option>
+                                <option value='48'>48</option>
+                                <option value='49'>49</option>
+                                <option value='50'>50</option>
+                                <option value='51'>51</option>
+                                <option value='52'>52</option>
+                                <option value='53'>53</option>
+                                <option value='54'>54</option>
+                                <option value='55'>55</option>
+                                <option value='56'>56</option>
+                                <option value='57'>57</option>
+                                <option value='58'>58</option>
+                                <option value='59'>59</option>
+                            </select>
+                            <select name='End-s' style='padding: 8px 8px; border: 1px solid #E0D8DE;'>
+                                <option value='00' selected>Sec</option>
+                                <option value='00'>All</option>
+                                <option value='00'>00</option>
+                                <option value='01'>01</option>
+                                <option value='02'>02</option>
+                                <option value='03'>03</option>
+                                <option value='04'>04</option>
+                                <option value='05'>05</option>
+                                <option value='06'>06</option>
+                                <option value='07'>07</option>
+                                <option value='08'>08</option>
+                                <option value='09'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                                <option value='13'>13</option>
+                                <option value='14'>14</option>
+                                <option value='15'>15</option>
+                                <option value='16'>16</option>
+                                <option value='17'>17</option>
+                                <option value='18'>18</option>
+                                <option value='19'>19</option>
+                                <option value='20'>20</option>
+                                <option value='21'>21</option>
+                                <option value='22'>22</option>
+                                <option value='23'>23</option>
+                                <option value='24'>24</option>
+                                <option value='25'>25</option>
+                                <option value='26'>26</option>
+                                <option value='27'>27</option>
+                                <option value='28'>28</option>
+                                <option value='29'>29</option>
+                                <option value='30'>30</option>
+                                <option value='31'>31</option>
+                                <option value='32'>32</option>
+                                <option value='33'>33</option>
+                                <option value='34'>34</option>
+                                <option value='35'>35</option>
+                                <option value='36'>36</option>
+                                <option value='37'>37</option>
+                                <option value='38'>38</option>
+                                <option value='39'>39</option>
+                                <option value='40'>40</option>
+                                <option value='41'>41</option>
+                                <option value='42'>42</option>
+                                <option value='43'>43</option>
+                                <option value='44'>44</option>
+                                <option value='45'>45</option>
+                                <option value='46'>46</option>
+                                <option value='47'>47</option>
+                                <option value='48'>48</option>
+                                <option value='49'>49</option>
+                                <option value='50'>50</option>
+                                <option value='51'>51</option>
+                                <option value='52'>52</option>
+                                <option value='53'>53</option>
+                                <option value='54'>54</option>
+                                <option value='55'>55</option>
+                                <option value='56'>56</option>
+                                <option value='57'>57</option>
+                                <option value='58'>58</option>
+                                <option value='59'>59</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='tool single'>
+                        <h4>Station</h4>
+                        <select name='Station' style='padding: 8px 14px; border: 1px solid #E0D8DE; width: 100%;'>
+                            <option value='99' selected>Station</option>
+                            <option value='99'>All Stations</option>
+                            <option value='01'>Resolute Bay, NWT</option>
+                            <option value='02'>Prince Albert, AB</option>
+                            <option value='03'>Ottawa, ON</option>
+                            <option value='04'>St John's, NL</option>
+                            <option value='05'>Fairbanks, AK, USA</option>
+                            <option value='06'>Fort Myers, FL, USA</option>
+                            <option value='07'>Quito, Ecuador</option>
+                            <option value='08'>Antofagasta, Chile</option>
+                            <option value='09'>Falkland Islands, UK</option>
+                            <option value='10'>Winkfield, UK</option>
+                            <option value='11'>Singapore, Malaysia</option>
+                            <option value='12'>Woomera, Australia</option>
+                            <option value='13'>Grand Forks, MN, USA</option>
+                            <option value='14'>Blossom Point, MD, USA</option>
+                            <option value='15'>South Point, MD, USA</option>
+                            <option value='16'>Johannesburg, South Africa</option>
+                            <option value='17'>Mojave, CA, USA</option>
+                            <option value='18'>Winkfield, UK 2</option>
+                            <option value='19'>Fairbanks, AK, USA 2</option>
+                            <option value='20'>Rosman, NC, USA</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div style='display: flex; align-items: center; flex-direction: column;'>
+                    <input type='submit' value='Submit form' class='search' style='padding: 8px 80px;'>
+                    <h6 style='color: gray;'>Powered by LarkData.space</h6>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
