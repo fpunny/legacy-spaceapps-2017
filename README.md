@@ -20,7 +20,7 @@ http://larkdata.heliohost.org<br />
 -Frederic Pun @fpunny<br />
 -Huanning Wang<br />
 -Jim Rootham @jrootham<br />
--Karlille John<br />
+-Karlille John @KarlilleJohn<br />
 -Michelle Villar<br />
 -Mohammad Ismail @ismailmohammad<br />
 -Patrick Ocampo<br />
