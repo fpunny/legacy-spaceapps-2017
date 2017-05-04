@@ -14,15 +14,15 @@ http://larkdata.heliohost.org<br />
 [![SpaceApps Toronto 2017 Presentations](http://i.imgur.com/wxEdpt9.png)](https://www.youtube.com/watch?v=U5yd2ZN50Yk&feature=youtu.be&t=1h31m35s "SpaceApps Toronto 2017 Presentations")
 
 ## Team Members (Credits):
--Ali Karamali<br />
--Amy Yi<br />
--Erin Hong<br />
--Frederic Pun @fpunny<br />
--Huanning Wang<br />
--Jim Rootham @jrootham<br />
--Karlille John @KarlilleJohn<br />
--Michelle Villar<br />
--Mohammad Ismail @ismailmohammad<br />
--Patrick Ocampo<br />
--Prashant Patel @prasvpatel<br />
--Sameed Sohani @asonance<br />
+* Ali Karamali<br />
+* Amy Yi<br />
+* Erin Hong<br />
+* Frederic Pun @fpunny<br />
+* Huanning Wang<br />
+* Jim Rootham @jrootham<br />
+* Karlille John @KarlilleJohn<br />
+* Michelle Villar<br />
+* Mohammad Ismail @ismailmohammad<br />
+* Patrick Ocampo<br />
+* Prashant Patel @prasvpatel<br />
+* Sameed Sohani @asonance<br />
