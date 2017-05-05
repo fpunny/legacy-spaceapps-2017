@@ -1,35 +1,35 @@
 # LarkData - Alouette I Ionogram Search Engine and Custom Ionogram Image Metadata Processing Algorithms
-###### Spaceapps Toronto 2017 Hackathon
-###### CSA Challenge #1: "Be part of Canada's legacy in space!"
+#### Spaceapps Toronto 2017 Hackathon
+#### CSA Challenge #1: "Be part of Canada's legacy in space!"
 
 <div style="text-align:center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
 
-# What the Challenge Was:
+## What the Challenge Was:
 <a href="http://www.asc-csa.gc.ca/eng/events/2017/space-apps-csa-challenges.asp#alouette">Source: CSA Space Apps 2017 Challenges</a></br>
 "**Your challenge?** Go back in time and create a tool that will decipher the numeric and the Binary Digital Coding (BDC) used in 1963. Your tool will help manage the thousands of ionosphere images recently scanned by the CSA."</br>
 **How would a tool to manage the Alouette-I images be helpful?**</br>
 "The 450 digitalized film rolls offer thousands of images. Without a tool to manage them, it is difficult to efficiently use the data because it is nearly impossible to carry out effective searches."</br>
 **What type of application or tool would be appropriate?**</br>
-"The challenge is not to interpret the ionogram images but to read and interpret the metadata found in each one. Once this information is electronically recognized, it could be integrated in a database. A tool could then use this database to manage the information by allowing searches according to specific criteria such as the receiving station facility, date, etc."</br>
+"The challenge is not to interpret the ionogram images but to read and interpret the metadata found in each one. Once this information is **electronically recognized, it could be integrated in a database**. A tool could then use this database to manage the information by allowing searches according to specific criteria such as the receiving station facility, date, etc."</br>
 
-# What Our Solution Does and how it Answers the Challenge:
+## What Our Solution Does and how it Answers the Challenge:
 
 LarkData is a tool which takes thousands of Ionogram images scanned by the Canadian Space Agency to read and interpret the metadata found in each image. This tool deciphers the numeric and Binary Digital Coding use in 1963.The metadata information is integrated into a database which manages the information by allowing searches according to specific criteria. This criteria includes Station Facility, Start Date/Time, and End Date/Time. The time taken in as an input is within the UTC (Coordinated Universal Time) time format as are the results displayed.
 
-# Target Audience:
+## Target Audience:
 Something to stress here is the target audience for our tool. The CSA challenge page mentioned that "without a tool to manage this huge collection of data, it is nearly impossible to carry out effective searches". What this indicates is that there is a need for such a tool to parse the information. Moreover, carrying out effective searches is what would assist researchers and scientists to decipher trends within the different time periods for the ionosphere and even focus in on specific times of a single day even. If the Alouette-II also used Binary Digital Coding (BDC), then this tool could further be extended into the images captured by that satellite. The general public and enthusiasts could also utilize our tool, however the emphasis would be on research and scientists who would be able to sift through the huge amounts of data and make observations and comparisons perhaps with the current day ionosphere and notice the trends over time.
 
 ## Video Demonstration of our Project at Work (Website Tool and Python Algorithms):
 Record Video of the project both website and python algorithm at work and patch the two footages together. Preferably 1080p 30fps initial capture.
 
-# Why was our Published Project focused only on a smaller sample of data?
+## Why was our Published Project focused only on a smaller sample of data?
 This is an important question to answer as one needs to gain insight on the colossal size of the data at hand to understand our decision. With each image coming in at roughly 30-40 MB and having a total of 3000 images in the dataset provided, this would lead to an average of 90,000 MB (90 GB) to 120,000 (120 GB) worth of data. Limited by network bandwidth and (possibly server bandwidth),it was not plausible to download the entire cache of 3000 Ionograms and parse them all. We do hope to one day be able to compile all the data into a grand database to assist the researchers/scientists. Moreover, we had the opportunity to speak to representatives of the CSA at the hackathon who assured us that other than these sample rolls, there is much more where this came from, we're talking thousands and thousands of more images. As a result, we feel our tool would be most effective with local access to the data as opposed to over the internet with respect to classifying all the images. Once the database is created, the online tool can be used by anyone to access this data.
 
-# How we Built it:
+## How we Built it:
 
 The webpage was first designed by the designers on our team to ensure proper aesthetics and a simple yet eye-pleasing design. The wireframe of this was then moved forward to the front-end developers who coded the webpage using HTML5 and CSS3. At the same time, the back-end developers were divided into two separate teams. The first team worked on developing a program using Python to decipher, read and interpret the metadata found in each image. OCR (Optical Character Recognition) was initially considered however would prove difficult to turn into a standard solution considering the Binary Digital Coding data. They then coded for a Python Algorithm to convert the parsed metadata into a CSV format. The second team set up the PostgreSQL database initially using the files included within the "Sample Data Sets" directory of this repository. The team then  This was used so, when the data entered into the HTML form was submitted based on the users inputted data and applies the filters on the data set and gives the users a refined table of search results with the option to view an smaller image or download the image. The filters of the data set was made using PHP while the data is being stored in a PostgreSQL database that was accessed using the php_pgsql extensions and its relevant functions such as pg_connect() and so forth.
 
-# Challenges we Faced as a Team:
+## Challenges we Faced as a Team:
 
 We ran into many challenges throughout this hackathon. The first challenge which we ran into was getting a Calendar/date-time picker built into the webpage for a easier selection of the date and time. We first tried this using JavaScript and jQuery but, without any luck we had to revert to basic HTML Calendar view. We spent many hours getting this to work as the time had to be down to the second as many of the Ionogram images had the exact hour and minute and were only a couple of seconds apart. If the date/time picker was not cut down to the second, the search result would yield not just one image but more images. Another challenge we faced was learning PostgreSQL and PHP within a span of 2 hours and applying it to the program. This was a major challenge for us as we did not know how to fix and go about with the errors that show up throughout the program. We spent countless hours on this part, but eventually, we got the entire webpage to work. This included a big crunch to get things working again when a simple naming error broke the PHP code. Shoutout to Jim Rootham for extending his experience and expertise within the industry and assisting us in learning new languages and concepts. Specifically, without each and every individual member of our team, this would not have been possible with the time constraints that were in place for such an ambitious challenge that we chose to take on.
 
