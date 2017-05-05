@@ -6,7 +6,7 @@ CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 <div align="center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
 
 # Quick Links:
-1. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#why-larkdata">Why LarkData?</a></br>
+1. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#why-larkdata">Why "LarkData?"</a></br>
 2. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#what-the-challenge-was">What the Challenge Was</a></br>
 3. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#what-our-solution-does-and-how-it-answers-the-challenge">What Our Solution Does and how it Answers the Challenge</a></br>
 4. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#target-audience">Target Audience</a></br>
@@ -20,8 +20,8 @@ CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 12. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#team-members-credits">Team Members (Credits)</a></br>
 13. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#how-to-navigate-this-repository-additional-information">How to Navigate this Repository (Additional Information)</a></br>
 
-## Why LarkData?
-We chose to name our project with a tribute to the original naming of the satellite which was "Alouette-I". Alouette as we know it, as French for the word Lark, which is a small songbird combined with the idea of parsing through useful data that can be used towards further research and appreciation of what the satellite did. Hence, the ideal name of LarkData for our project.
+## Why "LarkData"?
+We chose to name our project with a tribute to the original naming of the satellite which was "Alouette-I". Alouette as we know it, is French for the word Lark, which is a small songbird combined with the idea of parsing through useful data that can be used towards further research and appreciation of what the satellite did. Hence, the ideal name of LarkData for our project.
 
 ## What the Challenge Was:
 <a href="http://www.asc-csa.gc.ca/eng/events/2017/space-apps-csa-challenges.asp#alouette">Source: CSA Space Apps 2017 Challenges</a></br>
