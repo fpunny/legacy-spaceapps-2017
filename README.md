@@ -5,6 +5,9 @@ CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 
 <div align="center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
 
+## Why LarkData?
+We chose to name our project with a tribute to the original naming of the satellite which was "Alouette-I". Alouette as we know it, as French for the word Lark, which is a small songbird combined with the idea of parsing through useful data that can be used towards further research and appreciation of what the satellite did. Hence, the ideal name of LarkData for our project.
+
 ## What the Challenge Was:
 <a href="http://www.asc-csa.gc.ca/eng/events/2017/space-apps-csa-challenges.asp#alouette">Source: CSA Space Apps 2017 Challenges</a></br>
 "**Your challenge?** Go back in time and create a tool that will decipher the numeric and the Binary Digital Coding (BDC) used in 1963. Your tool will help manage the thousands of ionosphere images recently scanned by the CSA."</br>
@@ -33,9 +36,6 @@ The webpage was first designed by the designers on our team to ensure proper aes
 ## Challenges we Faced as a Team:
 
 We ran into many challenges throughout this hackathon. The first challenge which we ran into was getting a Calendar/date-time picker built into the webpage for a easier selection of the date and time. We first tried this using JavaScript and jQuery but, without any luck we had to revert to basic HTML Calendar view. We spent many hours getting this to work as the time had to be down to the second as many of the Ionogram images had the exact hour and minute and were only a couple of seconds apart. If the date/time picker was not cut down to the second, the search result would yield not just one image but more images. Another challenge we faced was learning PostgreSQL and PHP within a span of 2 hours and applying it to the program. This was a major challenge for us as we did not know how to fix and go about with the errors that show up throughout the program. We spent countless hours on this part, but eventually, we got the entire webpage to work. This included a big crunch to get things working again when a simple naming error broke the PHP code. Shoutout to Jim Rootham for extending his experience and expertise within the industry and assisting us in learning new languages and concepts. Specifically, without each and every individual member of our team, this would not have been possible with the time constraints that were in place for such an ambitious challenge that we chose to take on.
-
-## Why LarkData?
-We chose to name our project with a tribute to the original naming of the satellite which was "Alouette-I". Alouette as we know it, as French for the word Lark, which is a small songbird combined with the idea of parsing through useful data that can be used towards further research and appreciation of what the satellite did. Hence, the ideal name of LarkData for our project.
 
 ## Languages/Tools Used:
 * Python</br>
