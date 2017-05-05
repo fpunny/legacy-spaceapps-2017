@@ -1,4 +1,5 @@
-# LarkData - Alouette I Ionogram Search Engine and Custom Ionogram Image Metadata Processing Algorithms
+<h1 align="center">LarkData</h1>
+<h2 align="center">Alouette I Ionogram Search Engine and Custom Ionogram Image Metadata Processing Algorithms</h2>
 <h4 align="center">Spaceapps Toronto 2017 Hackathon</br>
 CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 
