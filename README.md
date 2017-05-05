@@ -2,7 +2,7 @@
 ###### Spaceapps Toronto 2017 Hackathon
 ###### CSA Challenge #1: "Be part of Canada's legacy in space!"
 
-<div style="text-align:center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/grf3Xad.png" /></a></div>
+<div style="text-align:center"><a href="http://larkdata.space/"><img src ="https://api-2017.spaceappschallenge.org/team-photos/9XOrXKvoD6sN8AHV2cPmXNo0BFQ=/3790/width-800/" /></a></div>
 
 #TEMPORARY PLACEHOLDER<br />
 #TO BE REVAMPED WITH MORE INFORMATION/POLISHED COPY<br />
@@ -28,3 +28,6 @@ http://larkdata.heliohost.org<br />
 * Patrick Ocampo<br />
 * Prashant Patel @prasvpatel<br />
 * Sameed Sohani @asonance<br />
+
+## How to Navigate this Repository:
+This repository is divided up into the various components/
