@@ -1,9 +1,9 @@
 <h1 align="center">LarkData</h1>
-<h2 align="center">Alouette I Ionogram Search Engine and Custom Ionogram Image Metadata Processing Algorithms</h2>
+<h2 align="center">Alouette-I Ionogram Search Engine and Custom Ionogram Image Metadata Processing Algorithms</h2>
 <h4 align="center">Spaceapps Toronto 2017 Hackathon</br>
 CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 
-<div style="text-align:center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
+<div><a href="http://larkdata.space/"><img align="center" src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
 
 ## What the Challenge Was:
 <a href="http://www.asc-csa.gc.ca/eng/events/2017/space-apps-csa-challenges.asp#alouette">Source: CSA Space Apps 2017 Challenges</a></br>
