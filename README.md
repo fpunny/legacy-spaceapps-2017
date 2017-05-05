@@ -2,7 +2,7 @@
 ###### Spaceapps Toronto 2017 Hackathon
 ###### CSA Challenge #1: "Be part of Canada's legacy in space!"
 
-<div style="text-align:center"><img src ="http://i.imgur.com/grf3Xad.png" /></div>
+<div style="text-align:center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/grf3Xad.png" /></a></div>
 
 #TEMPORARY PLACEHOLDER<br />
 #TO BE REVAMPED WITH MORE INFORMATION/POLISHED COPY<br />
