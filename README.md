@@ -50,18 +50,18 @@ http://larkdata.heliohost.org<br />
 [![SpaceApps Toronto 2017 Presentations](http://i.imgur.com/wxEdpt9.png)](https://www.youtube.com/watch?v=U5yd2ZN50Yk&feature=youtu.be&t=1h31m35s "SpaceApps Toronto 2017 Presentations")
 
 ## Team Members (Credits):
-* Ali Karamali<br />
-* Amy Yi<br />
-* Erin Hong<br />
-* Frederic Pun @fpunny<br />
-* Huanning Wang<br />
-* Jim Rootham @jrootham<br />
-* Karlille John @KarlilleJohn<br />
-* Michelle Villar<br />
-* Mohammad Ismail @ismailmohammad<br />
-* Patrick Ocampo<br />
-* Prashant Patel @prasvpatel<br />
-* Sameed Sohani @asonance<br />
+* Ali Karamali</br>
+* Amy Yi</br>
+* Erin Hong</br>
+* Frederic Pun <a href="https://github.com/fpunny">@fpunny</a></br>
+* Huanning Wang</br>
+* Jim Rootham <a href="https://github.com/jrootham">@jrootham</a></br>
+* Karlille John <a href="https://github.com/KarlilleJohn">@KarlilleJohn</a></br>
+* Michelle Villar</br>
+* Mohammad Ismail <a href="https://github.com/ismailmohammad">@ismailmohammad</a></br>
+* Patrick Ocampo</br>
+* Prashant Patel <a href="https://github.com/prasvpatel">@prasvpatel</a></br>
+* Sameed Sohani <a href="https://github.com/asonance">@asonance</a></br>
 
 ## How to Navigate this Repository (Additional Information):
 This repository is divided up into the various components that are required to either replicate the project we have created locally or to be hosted online. Below is a guide to uncomplicate perhaps the somewhat complicated but explanatory directories.
