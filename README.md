@@ -5,6 +5,21 @@ CSA Challenge #1: "Be part of Canada's legacy in space!"</h4>
 
 <div align="center"><a href="http://larkdata.space/"><img src ="http://i.imgur.com/VSdbx3U.jpg" /></a></div>
 
+# Quick Links:
+1. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#why-larkdata">Why LarkData?</a></br>
+2. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#what-the-challenge-was">What the Challenge Was</a></br>
+3. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#what-our-solution-does-and-how-it-answers-the-challenge">What Our Solution Does and how it Answers the Challenge</a></br>
+4. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#target-audience">Target Audience</a></br>
+5. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#video-demonstration-of-our-project-at-work-website-tool-and-python-algorithms">Video Demonstration of our Project at Work (Website Tool and Python Algorithms)</a></br>
+6. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#why-was-our-published-project-focused-only-on-a-smaller-sample-of-data">Why was our Published Project focused only on a smaller sample of data?</a></br>
+7. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#how-we-built-it">How we Built it</a></br>
+8. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#challenges-we-faced-as-a-team">Challenges we Faced as a Team</a></br>
+9. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#languagestools-used">Languages/Tools Used</a></br>
+10. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#links-to-live-website">Links to Live Website</a></br>
+11. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#video-of-our-presentation-at-spaceapps-toronto-2017">Video of Our Presentation at SpaceApps Toronto 2017</a></br>
+12. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#team-members-credits">Team Members (Credits)</a></br>
+13. <a href="https://github.com/ismailmohammad/legacy-spaceapps-2017#how-to-navigate-this-repository-additional-information">How to Navigate this Repository (Additional Information)</a></br>
+
 ## Why LarkData?
 We chose to name our project with a tribute to the original naming of the satellite which was "Alouette-I". Alouette as we know it, as French for the word Lark, which is a small songbird combined with the idea of parsing through useful data that can be used towards further research and appreciation of what the satellite did. Hence, the ideal name of LarkData for our project.
 
