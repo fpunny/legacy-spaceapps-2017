@@ -79,7 +79,7 @@ http://larkdata.heliohost.org<br />
 * Mohammad Ismail <a href="https://github.com/ismailmohammad">@ismailmohammad</a></br>
 * Patrick Ocampo</br>
 * Prashant Patel <a href="https://github.com/prasvpatel">@prasvpatel</a></br>
-* Sameed Sohani <a href="https://github.com/asonance">@asonance</a></br>
+* Sameed Sohani <a href="https://github.com/samsohani">@samsohani</a></br>
 
 ## How to Navigate this Repository (Additional Information):
 This repository is divided up into the various components that are required to either replicate the project we have created locally or to be hosted online. Below is a guide to uncomplicate perhaps the somewhat complicated but explanatory directories.
